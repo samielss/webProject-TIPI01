@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produtos</title>
+</head>
+<body>
+    <h1>Cadastro de Produtos</h1>
+    <form action="">
+        <fieldset><legend>Cadastro de Produtos</legend>
+        <label for="codigo">Código:</label>
+        <input type="number" name="codProd" id="codigo"/>
+<br><br>
+        <label for="descProd">Descrição</label>
+        <input type="text" name="descProd" id="descProd" placeholder="Insira a descrição" maxlength="50" size="20"/>
+<br><br>
+        <label for="valor">Valor</label>
+        <input type="number" name="valorProd" id="valorProd"/>
+<br><br>
+        <label for="qtdProd">Quantidade</label>
+        <input type="number" name="qtdProd" id="qtdProd"/>
+<br><br>
+        <label for="frutas">Escolha uma fruta</label>
+        <select name="frutas" id="frutas">
+            <option value="banana">Banana</option>
+            <option value="uva">Uva</option>
+            <option value="tamarindo">Tamarindo</option>
+            <option value="kiwi">Kiwi</option>
+            <option value="melancia">Melancia</option>
+        </select><br><br>
+        <label for="escolha">Escolha</label><br>
+        <input type="checkbox" name="maduro" id="maduro"> <label for="maduro">Maduro</label><br>   
+        <input type="checkbox" name="verde" id="verde"> <label for="verde">Verde</label><br>
+        <input type="checkbox" name="passado" id="passado"><label for="passado">Passado</label><br>   
+<br>
+        <label for="formPagt">Forma de Pagamento</label><br>
+        <input type="radio" name="formPagt" id="aVista"> <label for="aVista">A Vista</label><br>
+        <input type="radio" name="formPagt" id="credito"> <label for="credito">Cartão de Crédito</label><br>
+        <input type="radio" name="formPagt" id="debito"> <label for="debito">Cartão de Débito</label><br>
+        <input type="radio" name="formPagt" id="Pix"> <label for="pix">Pix</label>
+        <br>
+        <input type="submit" value="Enviar">
+        <br><br>
+        <input type="reset" value="Limpar">
+</fieldset>
+    </form>
+</body>
+</html>
