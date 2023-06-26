@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: cursive;
+}
+body {
+    background-color: rgb(152, 238, 204);
+}
+h1 {
+    background-color: rgb(208, 245, 190);
+    border: 5px solid rgb(251, 255, 220); 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+p{
+    background-color: rgb(208, 245, 190);
+    border: 5px solid rgb(251, 255, 220);
+}
+div {
+    background-color: #C1ECE4;
+}
+h2 {
+    background-color: #A4907C50;
+}
+/*trabalhando com bordas*/
+
+#borda-superior {
+    border-top: 5px double #FF9EAA;
+    border-bottom: 5px double #FF9EAA;
+    border-right: 5px double #FF9EAA;
+    border-left: 5px double #FF9EAA;
+    background-color: #FFD0D0;
+}
+#borda-inferior {
+    border-top: 5px double #FF9EAA;
+    border-bottom: 5px double #FF9EAA;
+    border-right: 5px double #FF9EAA;
+    border-left: 5px double #FF9EAA;
+    background-color: #FFD0D0;
+}
+#borda-direita {
+    border-top: 5px double #FF9EAA;
+    border-bottom: 5px double #FF9EAA;
+    border-right: 5px double #FF9EAA;
+    border-left: 5px double #FF9EAA;
+    background-color: #FFD0D0;
+}
+#borda-esquerda {
+    border-top: 5px double #FF9EAA;
+    border-bottom: 5px double #FF9EAA;
+    border-right: 5px double #FF9EAA;
+    border-left: 5px double #FF9EAA;
+    background-color: #FFD0D0;
+}
+/*trabalhando com margens*/
+#margem-superior {
+    margin: 10px 12px 8px 5px;
+    background-color: #FF9EAA;
+}
+#margem-inferior {
+    margin: 10px 12px 8px 5px;
+    background-color: #FF9EAA;
+}
+#margem-direita {
+    margin: 10px 12px 8px 5px;
+    background-color: #FF9EAA;
+}
+#margem-esquerda {
+    margin: 10px 12px 8px 5px;
+    background-color: #FF9EAA;
+}
+
+/*configurando conteiner*/
+#container{
+    width: 300px;
+    margin: auto;
+    border: 1px solid #A4907C50;
+}
+p {
+    font-family:'Times New Roman', Times, serif ;
+}
