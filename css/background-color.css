@@ -1,0 +1,19 @@
+* {
+    margin: 0; padding: 0;
+}
+body {
+    background-image: url(/images/fundo3.jpg);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-attachment: fixed;
+}
+h1 {
+    text-align: center;
+    color: burlywood;
+    font-family: cursive;
+    font-size: 50px;
+    background-color: #3C2317;
+    border-color: burlywood;
+    border: 7px;
+    border-style: double;
+}
